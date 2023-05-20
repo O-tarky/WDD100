@@ -1,7 +1,10 @@
+@import url('https://fonts.google.com/specimen/Instrument+Serif');
 #content{
 max-width: 1600px;
 margin: 0 auto;
 text-align: center; 
+font-size: 22px;
+font-family: 'Times New Roman', Times, serif;
 }
 nav a {
     text-align: center;
@@ -15,8 +18,17 @@ nav a {
 .button-box {
     text-align: center;
 }
+.home-title{
+    font-size: 2em;
+    font-family: serif;
+    margin-top: 10px;
+}
 main section{
     text-align: center;
+
+}
+h2{
+    margin: 0;
 }
 #background {
 height: 725px;
@@ -24,11 +36,14 @@ height: 725px;
 body{
     background-color: #2a9d8f;
     color: white;
-    
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #e76f51;
     color: white;
+    font-family: Serif;
+    
 }
 nav a:hover{
     background-color: white;
@@ -37,6 +52,10 @@ nav a:hover{
 .book, .join{
     background-color: #2a9d8f;
     color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 #background{
     
@@ -45,26 +64,36 @@ nav a:hover{
 .msg{
     background-color: #265328;
     color: black;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #e76f51;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
+    
 }
 
 nav a{ 
     text-decoration: none;
+    padding: 35px;
+    text-align: center;
 }
 .book, .join{
     text-decoration: none;
+    border-radius: 5px;
 }
 footer a{ 
     text-decoration: none;
@@ -74,4 +103,22 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.msg p{
+    padding-bottom: 15px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
 }
