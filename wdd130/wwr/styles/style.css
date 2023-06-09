@@ -34,7 +34,7 @@ h2{
     margin: 0;
 }
 #background {
-height: 725px;
+    height: 725px;
 }
 body{
     background-color: #2a9d8f;
@@ -78,13 +78,9 @@ nav a:hover{
     box-shadow: 5px 5px 10px #6f7364;
 
 }
-footer{
-    background-color: #6f7364;
-    padding: 25px 50px;
-    margin-top: 200px; 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 .logo{
     width: 80px;
@@ -158,10 +154,7 @@ main section img{
     grid-row: 1/2;
     margin-top: 100px;
 }
-home-grid{
-    display: grid;
-    grid-template-columns: 10fr;
-}
+
 .camping-card{
     margin: 200px 0;
     grid-column: 5/7;
