@@ -8,7 +8,7 @@
     font-family: 'Instrument Serif', serif;
 }
 
-nav{
+nav {
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -120,7 +120,8 @@ nav a {
     text-align: center;
 }
 
-.book, .join {
+.book,
+.join {
     text-decoration: none;
     border-radius: 5px;
 }
