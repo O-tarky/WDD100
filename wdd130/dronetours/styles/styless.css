@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.home-grid { 
+    display: grid;
+    font-family: 'Oswald';
+
+}
+header  {
+    background-color: #e76f51;
+    color: white;
+    font-family: Serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+
+}
+
+nav a:hover {
+    color: black;
+}
+nav {
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+}
+#logo-link{
+    align-self: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-area: auto;
+}
+.footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-title{
+    align-items: center;
+}
+
+
+
+
+/* -----------for reference--------------- */ 
+/* header { 
+
+}
+
+header #logo-link { 
+
+}
+
+header #logo-link img { 
+
+}
+
+header nav { 
+
+}
+
+header nav a { 
+
+}
+
+.home-grid { 
+
+}
+
+.home-grid .home-title { 
+
+}
+
+.home-grid .home-intro { 
+
+}
+
+.home-grid p { 
+
+}
+
+.home-grid video { 
+
+}
+
+.home-grid .site-content { 
+
+}
+
+footer { 
+
+}
+
+footer p { 
+
+}
+
+footer .social { 
+
+}
+
+footer .social a { 
+
+}
+
+footer .social a img { 
+
+} */
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
