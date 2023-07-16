@@ -1,34 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-.home-grid { 
+.home-grid {
     display: grid;
     font-family: 'Oswald';
 
 }
-header  {
+
+header {
     background-color: #e76f51;
     color: white;
     font-family: Serif;
     display: grid;
     grid-template-columns: 150px auto;
+    height: 75px;
 
 }
 
 nav a:hover {
     color: black;
 }
+
 nav {
     text-align: right;
     display: flex;
     justify-content: space-around;
 }
-#logo-link{
+
+#logo-link img {
     align-self: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-area: auto;
+    height: 60px;
 }
+
+#logo-link h1 {
+    height: 60px;
+    align-self: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-area: auto;
+    height: 60px;
+}
+
 .footer {
     background-color: #6f7364;
     padding: 25px 50px;
@@ -37,14 +53,84 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
-.home-title{
+
+.home-title {
     align-items: center;
+}
+
+/* subpage 1 */
+.images2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.item1 {
+    width: 50%;
+
+}
+
+.item2 {
+    width: 50%;
+}
+
+.item3 {
+    width: 50%;
+
+}
+
+.item4 {
+    width: 50%;
+
+}
+
+.item5 {
+    width: 50%;
+}
+
+/* subpage 2 */
+
+.images1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item21 {
+    width: 45%;
+    
+
+}
+
+.item22 {
+    width: 45%;
+    
+}
+
+.item23 {
+    width: 45%;
+
+}
+
+.item24 {
+    width: 45%;
+
+}
+
+.item25 {
+    width: 45%;
 }
 
 
 
 
-/* -----------for reference--------------- */ 
+
+
+
+/* -----------for reference--------------- */
 /* header { 
 
 }
@@ -108,28 +194,3 @@ footer .social a {
 footer .social a img { 
 
 } */
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
