@@ -97,6 +97,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .item21 {
@@ -123,7 +124,10 @@ nav {
 .item25 {
     width: 45%;
 }
-
+video {
+     max-width: 100%; 
+}
+img { max-width: 100%; } 
 
 
 
